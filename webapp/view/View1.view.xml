@@ -1,0 +1,16 @@
+<mvc:View controllerName="Training2.Training2.controller.View1" xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns="sap.m">
+	<Shell id="shell">
+		<App id="app">
+			<pages>
+				<Page id="page" title="{i18n>title}">
+					<content>
+						<Label text="Enter your name"></Label>
+						<Input id="name"></Input>
+						<Button text="Display Name" press="displayFunction"></Button>
+						<Button id="flag" text="Disable Input Field" press="flagFunction"></Button>
+					</content>
+				</Page>
+			</pages>
+		</App>
+	</Shell>
+</mvc:View>
